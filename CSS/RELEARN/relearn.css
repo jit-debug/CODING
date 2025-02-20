@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+.top-name{
+    display: inline-block;
+}
+.top-name{
+    margin-left: 25px;
+    font-size: 17px;
+    color: black;
+    font-family: bold;
+}
+
+.top-nav{
+
+    background-color: rgb(244, 244, 244);
+    padding: 20px 10px;
+}
+
+.top-links{
+
+  display: relative;
+
+}
+.links{
+  
+    font-family: verdana;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative ;
+    float: right;
+    top: -45px;
+    transition: 1.5s;
+}
+
+.links:hover{
+
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+
+

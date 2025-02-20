@@ -1,0 +1,41 @@
+input [type="radio"]{
+    display: none;
+}
+
+.tab{
+    width: 150px;
+    height: 50px;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.tabs .slider {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    background-color: #4973F3;
+    z-index: 0;
+    transition: 0.3s ease;
+}
+
+
+input[type="radio"]:checked + label {
+  color: #f1f1f1;
+}
+
+input[id="home"]:checked ~ .slider {
+    transform: translateX(0);
+}
+
+input[type="about"]:checked ~ .slider {
+  transform: translateX(100%);
+}
+
+input[id="contacts"]:checked ~ .slider {
+    transform: translateX(200%);
+  }
+ 
+  input[id="login"]:checked ~ .slider {
+    transform: translateX(300%);
+  }

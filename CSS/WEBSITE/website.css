@@ -1,0 +1,133 @@
+body{
+    margin:0;
+}
+nav{
+    background-color: black;
+    padding: 15px 25px;
+}
+ 
+.container1{
+    display: inline-block;
+}
+
+.links{
+    font-family: verdana;
+    text-decoration: none;
+    color:white;
+    margin: 0 15px;
+}
+.links-tags{
+     position:relative ;
+     bottom:-30px;
+    color: white;
+    font-family: verdana;
+    float: right;
+}
+
+.links{
+    display: block;
+    font-family: Verdana;
+    text-decoration: none;
+    color:rgb(238, 139, 11);
+    float: right;
+    transition: 0.5s;
+   
+}
+
+.links:hover{
+
+ background-color: rgb( 238, 139, 11) ;
+ color: white;
+ padding: 10px 30px;
+ border-radius: 14px;
+
+}
+
+.font{
+    
+    color: rgb(238, 139, 11);
+    display: inline-block;
+    margin: 0;
+    font-family: Verdana;
+    position: relative;
+    top: -10px;
+    left: 15px;
+}
+
+.omsim-links{
+
+    color: white;
+    background-color:rgb(238, 139, 11) ;
+    padding: 10px 15px;
+    font-family: verdana;
+    text-decoration: none;
+    border-radius: 30px;
+    
+}
+
+.nav2{
+
+    background-color: black;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    left:0;
+    border-top-right-radius: 30px;
+
+}
+
+.links-tags2{
+
+    background-color: black;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 150px;
+    left:0;
+    border-top-right-radius: 30px;
+
+}
+
+.links10{
+    
+    color: rgb(238, 139, 11);
+    display: block;
+    font-family: Verdana;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: 0.2s;
+    font-size: 20px;
+   
+}
+.links10:hover{
+
+    font-size: 25px;
+    color:rgba(238, 139, 2);
+   
+}
+
+@media screen and (max-width: 1400px){
+    .links-tags2 {
+        display: none;
+    }
+    .links10 {
+        display: none;
+    }
+    .nav2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .links-tags2 {
+        display: block;
+    }
+    .links10 {
+        display: flex;
+    }
+    .nav2 {
+        display: flex;
+    }
+}
+

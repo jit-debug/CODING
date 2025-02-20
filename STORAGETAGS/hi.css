@@ -1,0 +1,15 @@
+table,tr,th,td{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+   }   
+    caption{
+        background-color: gray;
+    }
+    th{
+        background-color:gray;
+    }
+    td{
+        background-color: gray;
+    }
+   

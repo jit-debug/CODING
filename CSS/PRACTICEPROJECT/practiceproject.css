@@ -1,0 +1,13 @@
+.menu-toggle span{
+    height: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.menu-toggle input:checked ~ .menu-btn span:nth-child(1) {
+    opacity: 0;
+}
+.menu-toggle input:checked ~ .menu-btn span:nth-child(2) {
+    transform: translateY(8px) rotate(45deg);
+}
+.menu-toggle input:checked ~ .menu-btn span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
